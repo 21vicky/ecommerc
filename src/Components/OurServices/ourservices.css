@@ -1,0 +1,104 @@
+.ourservicerlist-members {
+  height: 50vh;
+  margin-top: 30px;
+  margin-right: 14.5%;
+}
+
+#dark .ourservicerlist-members {
+  color: white;
+}
+@media (max-width: 1000px) {
+  .team-members {
+    height: auto;
+  }
+}
+
+.ourservicerlist-members-item img {
+  height: 240px;
+
+  cursor: pointer;
+  object-fit: cover;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center;
+  filter: brightness(70%);
+}
+
+.ourservicerlist-members-item:hover img {
+  filter: brightness(100%);
+  transform: scale(1.05);
+}
+
+.team-info {
+  padding: 10px;
+}
+
+.card {
+  border: none;
+}
+
+.ourservicerlist-members-item {
+  margin-top: 20px;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+}
+
+#dark .ourservicerlist-members-item {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.ourservicerlist-members-item:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 2s;
+}
+
+.line-for-ourservicerlist {
+  width: 170px;
+  display: block;
+  height: 1px;
+
+  background-color: rgb(16, 16, 15);
+  margin: -20px auto;
+}
+
+#dark .line-for-ourservicerlist {
+  width: 170px;
+  display: block;
+  height: 1px;
+  margin: 2px auto;
+  background-color: rgb(226, 226, 43);
+}
+.ourservicerlist-social-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.ourservicerlist-social-icon p {
+  color: hsl(0, 0%, 13%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.ourservicerlist-social-icon p:hover {
+  cursor: pointer;
+}
+
+.ourservicerlist-members-item-name {
+  color: hsl(0, 0%, 47%);
+}
+.ourservicerlist-members-item-content {
+  font-size: 17px;
+}

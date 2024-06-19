@@ -1,0 +1,295 @@
+.testimonial-team-members {
+  height: 530px;
+  margin-top: 64px;
+}
+.testimonial-title-name {
+  margin-left: 0px;
+}
+
+#dark .testimonial-team-members {
+  color: white;
+}
+@media (max-width: 1000px) {
+  .team-members {
+    height: auto;
+  }
+}
+
+.team-members-item img {
+  height: 240px;
+  cursor: pointer;
+  object-fit: cover;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center;
+  filter: brightness(70%);
+}
+
+.team-members-item:hover img {
+  filter: brightness(100%);
+  transform: scale(1.05);
+}
+
+.team-info {
+  padding: 10px;
+}
+
+.card {
+  border: none;
+}
+
+.team-members-item {
+  margin-top: 20px;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+}
+
+#dark .team-members-item {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.team-members-item:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 2s;
+}
+
+.line-for-teammembrs {
+  width: 170px;
+  display: block;
+  height: 1px;
+  margin: 2px auto;
+  background-color: rgb(16, 16, 15);
+}
+
+#dark .line-for-teammembrs {
+  width: 170px;
+  display: block;
+  height: 1px;
+  margin: 2px auto;
+  background-color: rgb(226, 226, 43);
+}
+.team-social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-icons p {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(52, 51, 40);
+  color: white;
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.team-social-icons p:hover {
+  background-color: rgb(42, 147, 245);
+  cursor: pointer;
+}
+.testimonial-line {
+  display: block;
+  width: 304px;
+  height: 2px;
+  margin-top: 15px;
+  background-color: blueviolet;
+}
+.teammembrs-content {
+  border-radius: 90px;
+  width: 150px;
+  max-height: 150px;
+  cursor: pointer;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center;
+  filter: brightness(70%);
+}
+
+.testimonial-quotation-name {
+  text-align: center;
+  margin-top: 3px;
+}
+.testimonial-quotation-content1 {
+  text-align: center;
+}
+.testimonial-quotation-symble {
+  font-size: 50px;
+  text-align: center;
+}
+.testimonial-quotation-content2 {
+  margin-top: -25px;
+  text-align: center;
+}
+
+.testimonial-discount {
+  background: fixed;
+}
+.testimonial-discount-notice {
+  border-radius: 10px;
+  background: hsla(0, 0%, 100%, 0.7);
+  padding: 20px;
+  width: 325px;
+  height: 305px;
+  margin-top: -405px;
+  margin-left: 496px;
+
+  position: absolute;
+}
+.testimonial-discount-image {
+  margin-top: -528.5px;
+  margin-left: 333px;
+  width: 648px;
+  height: 510px;
+  border-radius: 10px;
+  z-index: -1;
+  overflow: hidden;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+}
+#dark .testimonial-discount-image {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.testimonial-discount-image:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 2s;
+}
+
+.testimonial-discount-notice-offers {
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 5px;
+  margin: 35px;
+}
+.testimonial-discount-notice-name {
+  margin-top: -4px;
+  color: hsl(0, 0%, 27%);
+  text-align: center;
+}
+
+.testimonial-discount-notice-starting {
+  text-align: center;
+  color: hsl(0, 0%, 47%);
+}
+.testimonial-discount-notice-shopnow {
+  text-align: center;
+  color: hsl(0, 0%, 47%);
+}
+
+/*ourservices*/
+.ourservices {
+  background: fixed;
+  margin-top: -531px;
+  margin-left: 1010px;
+
+  width: 310px;
+}
+
+.ourservices-bor {
+  padding: 20px;
+  width: 310px;
+
+  height: 330px;
+}
+
+.ourservices-title-name {
+  margin-top: -16px;
+  margin-left: -15px;
+}
+
+.ourservices-line {
+  display: block;
+  width: 309.5px;
+  height: 2px;
+  margin-top: 13px;
+  margin-left: -19px;
+  background-color: blueviolet;
+}
+
+.ourservices-item-list1 {
+  margin-top: -250px;
+  color: hsl(353, 100%, 78%);
+}
+.ourservices-quotation-content1 {
+  margin-left: 80px;
+  display: flex;
+  margin-top: -57px;
+}
+.ourservices-quotation-content2 {
+  margin-top: -8px;
+  margin-left: 80px;
+  font-size: 14px;
+}
+.ourservices-item-list2 {
+  color: hsl(353, 100%, 78%);
+}
+
+.ourservices-item-list3 {
+  color: hsl(353, 100%, 78%);
+}
+
+.ourservices-item-list4 {
+  color: hsl(353, 100%, 78%);
+}
+
+.ourservices-item-list5 {
+  color: hsl(353, 100%, 78%);
+}
+.ourservices-item-list-logo {
+  font-size: 34px;
+  margin-left: 33.5px;
+}
+.ourservices-full-bp {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+}
+#dark .ourservices-full-bp {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.ourservices-full-bp:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 2s;
+}

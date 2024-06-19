@@ -1,0 +1,94 @@
+.shopping-section {
+  height: 900px;
+}
+
+#dark .shopping-section {
+  color: white;
+}
+
+#dark .shopping-details {
+  background-color: #38004c;
+}
+@media (max-width: 1000px) {
+  .shopping-section {
+    height: auto;
+  }
+
+  .shopping-image img {
+    display: none;
+  }
+}
+.shopping-image img {
+  border-radius: 190px;
+  margin-top: 160px;
+  object-fit: cover;
+}
+
+.shopping-details {
+  margin-top: 160px;
+  text-align: left;
+  padding: 20px;
+}
+
+.shopping-title h5 {
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #f7d010;
+}
+
+.card-design {
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+}
+
+#dark .card-design {
+  background-color: #38004c;
+  margin-top: 10px;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.card-design::after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px orangered;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.card-design:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.card-design:hover:after {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 1s;
+  transform: scaleX(1);
+  transform-origin: 50% 50% 10% 60%;
+}
+
+.shopping-list-item {
+  display: flex;
+  padding: 10px;
+}
+
+.shopping-details-icon {
+  padding-right: 10px;
+  color: purple;
+}

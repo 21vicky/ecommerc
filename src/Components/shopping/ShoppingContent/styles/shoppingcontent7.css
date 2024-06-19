@@ -1,0 +1,88 @@
+.shoppingcontent-service-section {
+  height: 900px;
+  margin-left: -6.4%;
+  width: 335px;
+}
+
+#dark .shoppingcontent-service-section {
+  color: white;
+}
+@media (max-width: 1000px) {
+  .shoppingcontent-service-section {
+    height: auto;
+  }
+}
+.shoppingcontent-section_title {
+  background-color: rgb(145, 241, 19);
+  padding-top: 20px;
+  padding-bottom: 8px;
+  height: 364px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+.shoppingcontent-link {
+  text-decoration: none;
+  color: rgb(182, 186, 203);
+  padding: 10px 15px 10px 15px;
+}
+.shoppingcontent-services {
+  width: 311px;
+  margin-top: 100px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  cursor: pointer;
+}
+
+#dark .shoppingcontent-services {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.shoppingcontent-services:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 1s;
+  border-left: 3px solid purple;
+}
+
+.shoppingcontent-service-number {
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  color: white;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.shoppingcontent-service-number {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.shoppingcontent-service_item_underline {
+  display: block;
+  width: 100%;
+  height: 0.1px;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+
+.shoppingcontent-list-of-service p {
+  text-align: left;
+}

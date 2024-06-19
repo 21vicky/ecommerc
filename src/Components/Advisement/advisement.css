@@ -1,0 +1,71 @@
+.advisement-slider {
+  margin-top: 0px;
+}
+
+#dark .advisement-slider {
+  color: white;
+}
+.advisement-slide {
+  margin-top: 0px;
+  height: 50.5vh;
+}
+
+.advisemen-content-slider {
+  padding: 10px;
+  color: white;
+  height: 449.4px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  margin: 10px;
+  margin-top: 10px;
+  margin-left: 15.7%;
+  margin-right: 15%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#dark .advisemen-content-slider {
+  background-color: #38004c;
+  color: white;
+  background-color: chartreuse;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.advisemen-content-slider:hover {
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.advisemen-content-slider img.advisemen-center-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-left: -11px;
+  margin-right: -11px;
+  display: block;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.advisement-slick-prev::before {
+  color: #ff854c !important;
+  font-size: 30px;
+}
+
+.advisement-slick-next::before {
+  color: #ff854c !important;
+  font-size: 30px;
+}
+
+.advisement-slick-disable {
+  /*opacity: 0;*/
+  pointer-events: none;
+}

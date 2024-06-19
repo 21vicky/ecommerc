@@ -1,0 +1,100 @@
+.category-slider {
+  height: 90vh;
+  margin-top: 0px;
+}
+.category-slider-container {
+  height: 21vh;
+}
+#dark .category-slider {
+  color: white;
+}
+.category-slide {
+  margin-top: 0px;
+  margin-left: 14.6%;
+  margin-right: 14.3%;
+}
+
+.category-content-slider {
+  width: 310px;
+  padding: 10px;
+  color: white;
+  height: 84px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px;
+  margin-top: 50px;
+  border: 1px solid hsl(0, 0%, 80%);
+  margin-bottom: 30px;
+}
+
+#dark .category-content-slider {
+  background-color: #38004c;
+  color: white;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+}
+.category-content-slider:hover {
+  background-color: whitesmoke;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.category-content-slider img.category-center-image {
+  height: 50.5px;
+  width: 50.5px;
+  background-color: whitesmoke;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+  margin-top: 7px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.category-slick-prev::before {
+  color: #ff854c !important;
+  font-size: 30px;
+}
+
+.category-slick-next::before {
+  color: #ff854c !important;
+  font-size: 30px;
+}
+
+.category-slick-disable {
+  /*opacity: 0;*/
+  pointer-events: none;
+}
+.category-content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category-item-amount {
+  display: flex;
+  color: #38004c;
+  margin-top: -33px;
+  margin-left: 69px;
+}
+.category-item-title {
+  display: flex;
+  color: #38004c;
+  margin-top: -13px;
+  margin-left: -44px;
+}
+.category-btn {
+  display: flex;
+  color: #38004c;
+  margin-top: -8px;
+  margin-right: 20px;
+}
